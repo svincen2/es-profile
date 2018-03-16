@@ -6,7 +6,8 @@
   :dependencies [[org.clojure/clojure "1.8.0"]
                  [http-kit "2.2.0"]
                  [org.clojure/core.async "0.3.443"]
-                 [org.clojure/data.json "0.2.6"]]
+                 [org.clojure/data.json "0.2.6"]
+                 [com.cemerick/url "0.1.1"]]
   :main ^:skip-aot es-profile.core
   :target-path "target/%s"
   :profiles {:uberjar {:aot :all}})
